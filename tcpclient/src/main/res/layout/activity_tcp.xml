@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="connect"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="disconnect"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/getDeviceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceInfo"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceName"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/getDeviceBattery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceBattery"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/reportDeviceBatteryAck"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="reportDeviceBatteryAck"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getDeviceVolume"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceVolume"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/setDeviceVolume"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="setDeviceVolume"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/reportDeviceVolumeAck"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="reportDeviceVolumeAck"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getDevicePlayState"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDevicePlayState"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/setDevicePlayState"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="setDevicePlayState"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/reportDevicePlayStateAck"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="reportDevicePlayStateAck"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/getDeviceFirmwareVersion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceFirmwareVersion"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getDeviceSN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceSN"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getDeviceMAC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getDeviceMAC"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getAudioInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getAudioInfo"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/getAudioEQIndex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getAudioEQIndex"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/setAudioEQIndex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="setAudioEQIndex"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getAudioDolby"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getAudioDolby"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/setAudioDolby"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="setAudioDolby"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/reportAudioDolbyAck"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="reportAudioDolbyAck"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getAudioSurrond"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getAudioSurrond"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/setAudioSurrond"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="setAudioSurrond"
+        android:onClick="ButtonClick"/>
+    <Button
+        android:id="@+id/setAdaptionPreEQ"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="setAdaptionPreEQ"
+        android:onClick="ButtonClick"/>
+
+    <Button
+        android:id="@+id/getHeartBeaterIsNormal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="getHeartBeaterIsNormal"
+        android:onClick="ButtonClick"/>
+
+</LinearLayout>
+</ScrollView>
