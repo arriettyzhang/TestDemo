@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--span-->
+    <color name="lightBlue">#40a2ff</color>
+    <color name="black">#000000</color>
+    <color name="color_transparent">#00d9d9d9</color>
+
+        <color name="primary_color">#32d1c4</color>
+        <color name="red_notice">#f44336</color>
+        <color name="main_title_font_black">#333333</color>
+        <color name="sec_main_title_font_black">#666666</color>
+        <color name="background_bottom_grey">#f8f9fb</color>
+        <color name="normal_grey_gap">#e5e5e5</color>
+        <color name="toolbar_grey_gap">#d9d9d9</color>
+        <color name="version_item_color">#333333</color>
+
+        <color name="halfColorPrimary">#80ffffff</color>
+        <color name="colorPrimaryDisabled">#30008bb2</color>
+        <color name="colorPrimaryPressed">#006b92</color>
+        <color name="colorGray">#c5c5da</color>
+        <color name="white">#ffffffff</color>
+        <color name="red">#ff0000</color>
+        <color name="darkBlue">#3082e0</color>
+        <color name="partly_blue">#26b4ff</color>
+        <color name="background_color">#F0F2F5</color>
+        <color name="primary_dark">#e0e0e0</color>
+        <color name="robot_toolbar_color">#42a5f5</color>
+        <color name="robot_controller_pad_background1">#42a5f5</color>
+        <color name="robot_controller_pad_background2">#64b5f6</color>
+        <color name="robot_controller_pad_background3">#42a5f5</color>
+
+        <color name="half_bottom_grey">#33d1d2d5</color>
+        <color name="email_hint_color">#99ffffff</color>
+        <color name="email_next_bt_pressed">#23b5a9</color>
+        <color name="email_next_bt_common">#16a0e9</color>
+        <color name="slide_menu_backgroud_color">#16dbe9</color>
+
+
+        <!--//=============switchbutton-->
+        <color name="ksw_md_ripple_normal">#1E000000</color>
+        <color name="ksw_md_ripple_checked">#33019285</color>
+        <color name="ksw_md_solid_shadow">#33000000</color>
+        <color name="ksw_md_solid_normal">#ECECEC</color>
+        <color name="ksw_md_solid_checked">#019285</color>
+        <color name="ksw_md_solid_disable">#FFFFFF</color>
+        <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+        <!--//=============================-->
+        <!--//======-->
+        <color name="colorPrimaryWhite">#ffffff</color>
+        <color name="main_blue">#32d1c4</color>
+        <color name="add_device_ok_green">#33d1c3</color>
+        <color name="bt_press_main_blue">#23b5a9</color>
+        <color name="half_red_notice">#80f44336</color>
+        <color name="press_red_notice">#d93125</color>
+        <color name="note_text_color">#999999</color>
+        <color name="label_light_yellow">#fff7d8</color>
+        <color name="edit_text_hint_font_color">#c4c4c4</color>
+        <color name="toast_color">#4d000000</color>
+        <color name="color_eletric_price_backgroud">#f6f6f6</color>
+        <color name="light_color_yellow">#fcd975</color>
+
+
+        <color name="background_tab_pressed">#6633B5E5</color>
+
+        <color name="select_device_back_color">#2632d1c4</color>
+        <color name="index_bg">#dfbfbfbf</color>
+        <color name="index_char_bg">#df808080</color>
+        <color name="weekly_update_tip">#fff7d8</color>
+        <!--//add after 20170525-->
+        <color name="device_offline_background_color">#08000000</color>
+
+        <color name="bg_white">#f8f9fb</color>
+        <color name="green_dot">#64dc16</color>
+        <color name="gray_dot">#c4c4c4</color>
+        <color name="chk_status_color">#99000000</color>
+        <!--//add after 20170619-->
+        <color name="bulb_lighting_color">#ffee58</color>
+        <!--for title activity-->
+        <color name="transparent">#00000000</color>
+    <color name="edittext_focus_bg_color">#CCF3F0</color>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arrietty.demoapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".s2.SubActivity"/>
+
+        <!-- [START firebase_service] -->
+        <activity android:name=".fcm.FirebaseActivity"/>
+        <service
+            android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service
+            android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+        <service android:name=".fcm.MyJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".ga.GoogleAnalycisActivity"/>
+        <activity android:name=".spandemo.SpanActivity"/>
+        <activity android:name=".recyclelist.RecycleMainActivity"
+            android:label="@string/title_activity_line"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".recyclelist.LineLocalActivity"
+            android:label="@string/title_activity_line"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".recyclelist.LineActivity"
+            android:label="@string/title_activity_line"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".recyclelist.LineActivity2"
+            android:label="滑动显示隐藏布局"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".recyclelist.GridActivity"
+            android:label="@string/title_activity_grid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".recyclelist.StaggeredActivity"
+            android:label="@string/title_activity_staggerde"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".battery.GetBatteryInfo"/>
+        <activity android:name=".gsonformat.JsonActivity"/>
+        <activity android:name=".s2.S2MainActivity"></activity>
+    </application>
+
+</manifest>

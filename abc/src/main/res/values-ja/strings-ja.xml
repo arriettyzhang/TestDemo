@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">hello</string>
+    <string name="android_genie_do_more_with_alexa_text">"Eufy GenieはAlexa音声サービスに統合されていますので、音声操作によって音楽を再生、ニュースや天気の情報を入手、タイマーの設定、スマートデバイスの操作が可能です。\n\n
+といったサードパーティー製のサービスを利用したい場合は、\n\n
+-Pandora\n
+-Uber\n
+-Nest\n
+-Domino's Pizza\n\n
+下記の手順に従ってください。\n\n
+ ステップ1：Amazon Alexaアプリをダウンロードした後に開いてください。\n
+ ステップ2：Amazonアカウントにログインしてください。\n
+ ステップ3：お気に入りのコンテンツやサービスをお楽しみください。\n\n
+ Amazon Alexaアプリの使用方法についてはこちらをお訪ねください。"</string>
+    <string name="android_genie_do_more_with_alexa_text1">"eufy GenieはAlexa音声サービスに統合されていますので、音声操作によって音楽を再生、ニュースや天気の情報を入手、タイマーの設定、スマートデバイスの操作が可能です。\n\n
+        Pandora\nUber\nNest\nDomino's Pizza\n\n
+        といったサードパーティー製のサービスを利用したい場合は、下記の手順に従ってください。\n\n
+        ステップ1：Amazon Alexaアプリをダウンロードした後に開いてください。\nステップ2：Amazonアカウントにログインしてください。\nステップ3：お気に入りのコンテンツやサービスをお楽しみください。\n\nAmazon Alexaアプリの使用方法についてはこちらをお訪ねください。"</string>
+
+</resources>

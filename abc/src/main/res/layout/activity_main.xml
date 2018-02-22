@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/highlightBgEdit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:background="@null"
+        android:selectAllOnFocus="true"
+        android:layout_gravity="center_vertical|start"
+        android:textSize="16sp"
+        android:focusable="true"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:hint="选中字体背景颜色"
+        android:cursorVisible="true"
+        android:textColor="@color/sec_main_title_font_black"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColorHighlight="#ff0000"
+        />
+    <TextView
+        android:id="@+id/spanText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="google analycis" />
+
+        <Button
+            android:id="@+id/fcmBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="firebase notification" />
+        <Button
+            android:id="@+id/recycleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="10dp"
+            android:text="下拉刷新、左右滑动删除、上滑自动加载、长按拖拽移动位置、点击list" />
+
+        <Button
+            android:id="@+id/spanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="字串某部分颜色渲染" />
+        <Button
+            android:id="@+id/getbatteryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电池信息"/>
+        <Button
+            android:id="@+id/jsonBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="json信息"/>
+        <Button
+            android:id="@+id/tcpCLientBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tcpClientBtn"/>
+        <Button
+            android:id="@+id/gradientBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCLickFun"
+            android:text="json信息"/>
+    </LinearLayout>
+
+
+</LinearLayout>

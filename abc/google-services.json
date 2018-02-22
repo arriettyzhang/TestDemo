@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "800933467547",
+    "firebase_url": "https://demoapp-cab42.firebaseio.com",
+    "project_id": "demoapp-cab42",
+    "storage_bucket": "demoapp-cab42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800933467547:android:95c1e358b8285497",
+        "android_client_info": {
+          "package_name": "com.example.arrietty.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800933467547-0ecpfvfer3l7q3jlq3ckkcm775cr3oqq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "800933467547-ej8qofh7m6rfob6mk3hhmr0olp82taua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi6KFs5WumvYmHIvBa0bJ1CXYfzW1v6Lc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-109647466-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="manually_choose_network_title">Manually Connect To A Network</string>
+
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="android_genie_pandora_text_1">Pandora is free, personalized radio that plays music you\'ll love. You can now use Alexa to discover new music and enjoy old favorites with Eufy Genie.\n\nTo setup Pandora and enable Alexa hands-free voice-control, please follow the instructions below.\nIf you previously linked your Pandora account to the Alexa app, you don’t need to link it again.\n\nStep 1: Download the Amazon Alexa App.\nStep 2: Login with your Amazon account.\nStep 3: Tap the Menu icon in the top-left corner and select Settings.</string>
+    <string name="amazon_alexa_app">Amazon Alexa App</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_line">线性布局</string>
+    <string name="title_activity_grid">网格布局</string>
+    <string name="title_activity_staggerde">交错网格布局</string>
+    <string name="battery_level_scale">电池电量：%s</string>
+    <string name="battery_scale">电池电量最大值：%s</string>
+    <string name="battery_status">电池状态：%s</string>
+    <string name="battery_status_unknown">未知</string>
+    <string name="battery_status_changing">充电</string>
+    <string name="battery_status_dischanging">放电</string>
+    <string name="battery_status_not_changing">未充电</string>
+    <string name="battery_status_full">充满电</string>
+    <string name="battery_health">电池健康状态：%s</string>
+    <string name="battery_health_unknown">未知错误</string>
+    <string name="battery_health_good">状态良好</string>
+    <string name="battery_health_overheat">电池过热</string>
+    <string name="battery_health_dead">电池没有电</string>
+    <string name="battery_health_unspecifed_failure">未知失败</string>
+    <string name="battery_health_over_voltage">电池电压过高</string>
+    <string name="battery_health_cold">过冷</string>
+    <string name="battery_plugged">插入电源类型：%s</string>
+    <string name="battery_plugged_ac">交流电源</string>
+    <string name="battery_plugged_usb">usb端口</string>
+    <string name="battery_plugged_wireless">无线</string>
+    <string name="battery_voltage">电池电压：%smV</string>
+    <string name="battery_temperature">电池温度：%s ℃</string>
+    <string name="battery_technology">电池technology：%s</string>
+
+</resources>
