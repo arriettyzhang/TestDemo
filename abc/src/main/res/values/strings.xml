@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">DemoApp</string>
     <string name="manually_choose_network_title">Manually Connect To A Network</string>
 
@@ -36,5 +36,6 @@
     <string name="battery_voltage">电池电压：%smV</string>
     <string name="battery_temperature">电池温度：%s ℃</string>
     <string name="battery_technology">电池technology：%s</string>
+    <string name="dot"> &#183; </string>
 
 </resources>

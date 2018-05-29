@@ -15,7 +15,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            buildConfigField "String", "ROOT_URL", "\"http://52.34.15.197:3002\""
+        }
         release {
+            buildConfigField "String", "ROOT_URL", "\"https://speaker.eufylife.com/\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -51,6 +55,7 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
     //compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
     //retrofit2 end
+    compile 'com.zhy:okhttputils:2.6.2'
 
 
 

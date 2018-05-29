@@ -78,6 +78,12 @@
             android:layout_height="wrap_content"
             android:onClick="onCLickFun"
             android:text="json信息"/>
+        <Button
+            android:id="@+id/noScrollViewPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCLickFun"
+            android:text="noScrollViewPage" />
     </LinearLayout>
 
 

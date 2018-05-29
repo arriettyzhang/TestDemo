@@ -98,4 +98,5 @@ public class JsonActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
 }

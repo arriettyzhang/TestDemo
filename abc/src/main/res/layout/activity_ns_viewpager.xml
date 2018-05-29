@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/viewpageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="switch"
+        android:onClick="onCLick"/>
+    <Button
+        android:id="@+id/animBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="switch"
+        android:onClick="onCLick"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        >
+        <ImageView
+            android:id="@+id/showView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a3201_img_original_wave"/>
+        <ImageView
+            android:id="@+id/hideView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a3201_img_office_wave"
+            android:visibility="gone"/>
+    </FrameLayout>
+    <com.example.arrietty.demoapp.viewpage.NoScrollViewPager
+        android:id="@+id/no_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.example.arrietty.demoapp.viewpage.NoScrollViewPager>
+
+</LinearLayout>

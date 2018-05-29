@@ -37,7 +37,7 @@ public interface RetrofitAPI {
 
     @Headers({
             "Accept: application/vnd.github.v3.full+json",
-            "User-Agent: Retrofit-Sample-App"
+            "User-Agent: Retrofit-Sample-APP"
     })
     @GET("users/{username}")
     Call<User> getUser(@Path("username") String username);
@@ -45,7 +45,7 @@ public interface RetrofitAPI {
 
     @Headers({
             "Accept: application/vnd.github.v3.full+json",
-            "User-Agent: Retrofit-Sample-App"
+            "User-Agent: Retrofit-Sample-APP"
     })
     @GET("users/{user}/repos")
     Call<PhoneInfo> getResult(@Path("user") String user, @Header("apikey") String apikey, @Query("phoneNum") String phoneNum);

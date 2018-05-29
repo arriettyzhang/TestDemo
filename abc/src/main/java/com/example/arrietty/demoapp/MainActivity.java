@@ -31,7 +31,9 @@ import com.example.arrietty.demoapp.s2.S2MainActivity;
 import com.example.arrietty.demoapp.spandemo.SpanActivity;
 import com.example.arrietty.demoapp.utils.AppUtil;
 import com.example.arrietty.demoapp.utils.DensityUtil;
+import com.example.arrietty.demoapp.utils.MD5Util;
 import com.example.arrietty.demoapp.utils.SystemUtil;
+import com.example.arrietty.demoapp.viewpage.NSViewPagerActivity;
 
 import java.util.Locale;
 
@@ -52,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        md5Test();
         mHighlightBgEdit = (EditText)findViewById(R.id.highlightBgEdit);
         mHighlightBgEdit.selectAll();
 
@@ -329,9 +332,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.gradientBtn:
                 cls = GradientActivity.class;
                 break;
+            case R.id.noScrollViewPage:
+                cls = NSViewPagerActivity.class;
+                break;
 
         }
         i.setClass(MainActivity.this, cls);
         startActivity(i);
+    }
+    private  void md5Test(){
+        String str ="1234567";
+        try {
+            String des2 = MD5Util.encode(str);
+            String des = MD5Util.encrypt(str);
+            String des3 = MD5Util.md5Encrypt(str, false);
+            Log.v(TAG, "str =" +str +"\n" + "des = " +des+"\n" + "des2 = " +des2+"\n" + "des3 = " +des3);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
